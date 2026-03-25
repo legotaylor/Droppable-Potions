@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "dev.dannytaylor.droppable_potions.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	},
+	"mixins": [
+		"ThrowablePotionItemMixin",
+		"ItemEntityMixin"
+	]
+}

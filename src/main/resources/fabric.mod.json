@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "droppable-potions",
+	"version": "${version}",
+	"name": "Droppable Potions",
+	"description": "Makes you drop potions instead of throwing them. ",
+	"authors": [
+		"dannytaylor"
+	],
+	"contact": {
+		"homepage": "https://github.com/legotaylor/Droppable-Potions",
+		"sources": "https://github.com/legotaylor/Droppable-Potions"
+	},
+	"license": "MIT",
+	"icon": "assets/droppable-potions/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"droppable-potions.mixins.json"
+	],
+	"depends": {
+		"minecraft": "~26.1"
+	}
+}
