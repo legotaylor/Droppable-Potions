@@ -9,7 +9,8 @@
 		"requireAnnotations": true
 	},
 	"mixins": [
-		"ThrowablePotionItemMixin",
-		"ItemEntityMixin"
+		"ItemEntityMixin",
+		"SplashPotionItemMixin",
+		"ThrowablePotionItemMixin"
 	]
 }

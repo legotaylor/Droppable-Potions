@@ -18,7 +18,7 @@ public abstract class ThrowablePotionItemMixin extends PotionItem {
 	}
 
 	@Inject(at = @At("HEAD"), method = "use", cancellable = true)
-	private void use(Level level, Player player, InteractionHand hand, CallbackInfoReturnable<InteractionResult> cir) {
+	private void dp$use(Level level, Player player, InteractionHand hand, CallbackInfoReturnable<InteractionResult> cir) {
 		cir.setReturnValue(super.use(level, player, hand));
 	}
 }
